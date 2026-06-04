@@ -1,0 +1,557 @@
+[
+  {
+    "ticket_id": "T001",
+    "customer_name": "Андрей Соколов",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 5,
+        "quote": "Сделал экспорт задач проекта в Excel — файл открылся пустым, все строки пропали."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T002",
+    "customer_name": "Мария Лебедева",
+    "plan": "starter",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 4,
+        "quote": "Пытаюсь пригласить коллегу в проект — кнопка «Пригласить» нажимается, письмо вроде бы уходит, но коллега его не получает."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T003",
+    "customer_name": "Игорь Попов",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "Проект с 500+ задачами просто не открывается — вылетает через 5 секунд."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T004",
+    "customer_name": "Елена Козлова",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "billing",
+        "severity": 4,
+        "quote": "Обнаружила, что подписка за октябрь списана дважды — 5 октября и 7 октября."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T005",
+    "customer_name": "Дмитрий Новиков",
+    "plan": "free",
+    "complaints": [
+      {
+        "category": "integration",
+        "severity": 3,
+        "quote": "Настроил синхронизацию с Google Calendar по инструкции, но задачи с дедлайнами не появляются в календаре."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T006",
+    "customer_name": "Ольга Смирнова",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Главный дашборд грузится 12-18 секунд каждый раз."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T007",
+    "customer_name": "Алексей Морозов",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 5,
+        "quote": "В отчёте по трекингу времени за октябрь цифры не совпадают с тем, что я вижу в задачах. Разрыв — около 30 часов лишних."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T008",
+    "customer_name": "Наталья Петрова",
+    "plan": "starter",
+    "complaints": [
+      {
+        "category": "integration",
+        "severity": 3,
+        "quote": "Подключила Telegram-бота для уведомлений о новых задачах, всё настроила по инструкции. Первые два дня работало, потом уведомления пропали."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T009",
+    "customer_name": "Сергей Волков",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 4,
+        "quote": "Перетаскиваю задачи в Kanban — они становятся на нужные места, но после обновления страницы всё возвращается в прежний порядок. Сохранения не происходит."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T010",
+    "customer_name": "Татьяна Федорова",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 4,
+        "quote": "При экспорте в PDF диаграмма Ганта либо обрезается, либо экспортируется пустая страница."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T011",
+    "customer_name": "Антон Зайцев",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "integration",
+        "severity": 5,
+        "quote": "Сменил пароль аккаунта — после этого все API-запросы стали возвращать 401. Регенерировал токен несколько раз, каждый новый тоже не работает. Интеграция с нашим CI/CD полностью сломалась. Деплой заблокирован."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T012",
+    "customer_name": "Виктория Кузнецова",
+    "plan": "starter",
+    "complaints": [
+      {
+        "category": "billing",
+        "severity": 3,
+        "quote": "В настройках аккаунта кнопки «Отменить подписку» просто нет. В справке написано, что она должна быть в разделе «Биллинг», но там её нет."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T013",
+    "customer_name": "Никита Орлов",
+    "plan": "free",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 3,
+        "quote": "Ввожу в поиск название задачи, которую точно вижу в списке — поиск возвращает «ничего не найдено». Кириллица не ищется вообще."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T014",
+    "customer_name": "Людмила Степанова",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "billing",
+        "severity": 4,
+        "quote": "Открываю настройки — тариф изменён с Pro (2490 руб/мес) на Enterprise (7990 руб/мес). Никакого согласия на смену не давала, никакого письма не получала."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T015",
+    "customer_name": "Роман Васильев",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "integration",
+        "severity": 5,
+        "quote": "Наш IT-администратор три дня пытается настроить SSO-вход через наш LDAP-сервер. Документация устарела, инструкции не соответствуют текущему интерфейсу. Без SSO мы не можем запустить продукт для 150 сотрудников — это блокер всего внедрения."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T016",
+    "customer_name": "Светлана Иванова",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 5,
+        "quote": "Обнаружила, что несколько PDF-файлов, прикреплённых к задачам в проекте, больше недоступны. Ссылки показывают «Файл не найден». Это договора с клиентами — очень важные документы."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T017",
+    "customer_name": "Павел Крылов",
+    "plan": "starter",
+    "complaints": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "На iPhone 14 с iOS 17.1 приложение вылетает примерно раз в 10 минут."
+      },
+      {
+        "category": "data_loss",
+        "severity": 4,
+        "quote": "Теряю несмотрённые уведомления и несохранённые правки."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T018",
+    "customer_name": "Юлия Борисова",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 3,
+        "quote": "В нашей компании нужно ограничить доступ разных отделов к разным проектам. По документации такая функция должна быть, но в реальном интерфейсе её нет."
+      },
+      {
+        "category": "support",
+        "severity": 2,
+        "quote": "Поддержка отвечает «скоро появится» уже три месяца."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T019",
+    "customer_name": "Кирилл Громов",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "integration",
+        "severity": 4,
+        "quote": "Запустил синхронизацию задач с Jira — процесс завис на 4 часа со статусом «синхронизирую...»."
+      },
+      {
+        "category": "ux",
+        "severity": 3,
+        "quote": "Прервать синхронизацию нельзя — кнопки отмены нет."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Теперь всё приложение работает очень медленно."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T020",
+    "customer_name": "Екатерина Тихонова",
+    "plan": "free",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 2,
+        "quote": "нигде при регистрации и в процессе создания четвёртого проекта не было предупреждения — просто выдало ошибку без объяснения."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T021",
+    "customer_name": "Максим Громов",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 5,
+        "quote": "После последнего обновления все дедлайны в проектах сдвинулись на один день раньше."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T022",
+    "customer_name": "Ирина Соколова",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Отправила критический баг-репорт 14 октября. Сегодня 20 октября — ни одного ответа."
+      },
+      {
+        "category": "data_loss",
+        "severity": 5,
+        "quote": "часть данных недоступна"
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T023",
+    "customer_name": "Алина Федотова",
+    "plan": "starter",
+    "complaints": [
+      {
+        "category": "security",
+        "severity": 5,
+        "quote": "Изменила email в настройках профиля. Пришло письмо с подтверждением, нажала ссылку — и теперь не могу войти ни со старым, ни с новым email."
+      },
+      {
+        "category": "data_loss",
+        "severity": 5,
+        "quote": "Три года данных в аккаунте."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T024",
+    "customer_name": "Денис Копылов",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 5,
+        "quote": "После обновления в пятницу формулы вернули «#ERROR» во всех задачах."
+      },
+      {
+        "category": "billing",
+        "severity": 4,
+        "quote": "Поля сломаны, данные для биллинга клиентов неверны."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T025",
+    "customer_name": "Полина Михайлова",
+    "plan": "free",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 2,
+        "quote": "Работаю с приложением по вечерам, очень яркий белый интерфейс. Просила добавить тёмную тему ещё полгода назад через форму фичреквеста — ни ответа, ни реализации."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T026",
+    "customer_name": "Вадим Семёнов",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "security",
+        "severity": 5,
+        "quote": "В разделе «Все задачи» вижу задачи и комментарии другой организации. Их название — «ТехноСервис» — не связано с нашей компанией никак."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T027",
+    "customer_name": "Зинаида Лукьянова",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 5,
+        "quote": "Импортировала доску из Trello с 300 карточками. В системе оказалось 148 задач. Оставшиеся 152 просто исчезли."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T028",
+    "customer_name": "Артём Беляев",
+    "plan": "starter",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 3,
+        "quote": "В настройках организации поле «Название» есть, но сохранить изменения нельзя — кнопка «Сохранить» неактивна после редактирования."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T029",
+    "customer_name": "Валентина Жукова",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 4,
+        "quote": "Настроила повторение задачи каждую неделю по понедельникам. Задача создаётся, но дата всегда на воскресенье. Сдвиг на один день."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T030",
+    "customer_name": "Глеб Щербаков",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "integration",
+        "severity": 5,
+        "quote": "Настроены webhook'и на создание задач. Работают только для задач верхнего уровня. Задачи в подпроектах (вложенность 2+ уровня) не триггерят webhook."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T031",
+    "customer_name": "Маргарита Ершова",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 3,
+        "quote": "Уволился сотрудник. Нужно переназначить 200 его задач на другого человека. Функции массового переназначения нет. Только поштучно."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T032",
+    "customer_name": "Борис Тарасов",
+    "plan": "free",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 4,
+        "quote": "После обновления приложения с версии 3.1 до 3.2 все теги на задачах исчезли."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T033",
+    "customer_name": "Ксения Поляков",
+    "plan": "starter",
+    "complaints": [
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Написала в поддержку 30 октября с вопросом по настройке автоматизации. Сегодня 2 ноября — ответа нет."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T034",
+    "customer_name": "Тимур Яковлев",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "security",
+        "severity": 5,
+        "quote": "После включения 2FA по SMS несколько сотрудников не могут войти — SMS не приходит, а окно ввода кода появляется."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T035",
+    "customer_name": "Юлия Корнилова",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 4,
+        "quote": "Расставила зависимости между задачами, но диаграмма Ганта их не отображает и не учитывает при сдвиге дат."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T036",
+    "customer_name": "Фёдор Соловьёв",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "ux",
+        "severity": 2,
+        "quote": "Получаю по 8-10 писем в день: дедлайны, комментарии, обновления. В настройках уведомлений есть переключатели, всё отключил — письма продолжают приходить."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T037",
+    "customer_name": "Екатерина Громова",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 4,
+        "quote": "В отчёте по рабочей нагрузке несколько сотрудников показаны на 200%+ загруженности, хотя у них 5-7 задач в неделю. Похоже, задачи считаются дважды."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T038",
+    "customer_name": "Игорь Лазарев",
+    "plan": "starter",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 5,
+        "quote": "Функция экспорта есть, но работает только для платных тарифов. На free нет доступа к своим же данным — это нечестно."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T039",
+    "customer_name": "Надежда Горбунова",
+    "plan": "pro",
+    "complaints": [
+      {
+        "category": "data_loss",
+        "severity": 4,
+        "quote": "Задачи копируются, но структура папок и вложенность теряются — всё становится плоским списком."
+      }
+    ],
+    "is_resolved": false
+  },
+  {
+    "ticket_id": "T040",
+    "customer_name": "Владимир Захаров",
+    "plan": "enterprise",
+    "complaints": [
+      {
+        "category": "security",
+        "severity": 5,
+        "quote": "Аудит-лог записывает создание, изменение, комментарии — но не удаление задач. По документации удаление должно логироваться. Это дыра в безопасности."
+      }
+    ],
+    "is_resolved": false
+  }
+]

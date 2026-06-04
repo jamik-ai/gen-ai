@@ -1,0 +1,1162 @@
+[
+  {
+    "ticket_id": "T001",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Это критически важный отчёт для клиента, который уходил сегодня. Задержал сдачу.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Задержал сдачу.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Потратил три часа на восстановление данных вручную из памяти.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Прошу вернуть данные или объяснить, где они.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "ticket_id": "T002",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Без этого весь проект стоит.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Без этого весь проект стоит.",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Пытаюсь пригласить коллегу в проект",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Попробовала три разных адреса, ни один не сработал.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T003",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Проект с 500+ задачами просто не открывается — вылетает через 5 секунд.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "У нас 40 человек в команде, вся работа завязана на этом проекте. Срочно.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "У нас 40 человек в команде, вся работа завязана на этом проекте.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Проект с 500+ задачами просто не открывается",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T004",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "подписка за октябрь списана дважды",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "neutral",
+        "quote": "Прошу вернуть один платёж.",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Обнаружила, что подписка за октябрь списана дважды",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Прошу вернуть один платёж.",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "ticket_id": "T005",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "задачи с дедлайнами не появляются в календаре",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "neutral",
+        "quote": "Пробовал переподключать несколько раз.",
+        "confidence": 0.6
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Настроил синхронизацию с Google Calendar",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Интеграция показывается как «активна», но данные не передаются.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T006",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Главный дашборд грузится 12-18 секунд каждый раз.",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "neutral",
+        "quote": "Проблема началась примерно неделю назад.",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "Коллеги из той же команды жалуются на то же самое.",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Раньше было мгновенно.",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "ticket_id": "T007",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Если отправим неверный счёт — потеряем клиента.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Мы используем эти данные для выставления счетов клиентам.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "Разрыв — около 30 часов лишних.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "В отчёте по трекингу времени за октябрь цифры не совпадают",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T008",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "уведомления пропали",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "neutral",
+        "quote": "Первые два дня работало, потом уведомления пропали.",
+        "confidence": 0.6
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Подключила Telegram-бота для уведомлений о новых задачах",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Telegram молчит.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "ticket_id": "T009",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Команда тратит время на постоянную переорганизацию доски.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "после обновления страницы всё возвращается в прежний порядок",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Команда тратит время",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Сохранения не происходит.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T010",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "диаграмма Ганта либо обрезается, либо экспортируется пустая страница",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Нужен отчёт для совета директоров в пятницу.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Пробовала разные браузеры — Chrome, Firefox, Edge. Везде одинаково.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "При экспорте в PDF диаграмма Ганта либо обрезается, либо экспортируется пустая страница.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T011",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Интеграция с нашим CI/CD полностью сломалась. Деплой заблокирован.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Деплой заблокирован.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "все API-запросы стали возвращать 401",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Регенерировал токен несколько раз, каждый новый тоже не работает.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T012",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "В настройках аккаунта кнопки «Отменить подписку» просто нет.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "neutral",
+        "quote": "Хочу отменить подписку, но нет такой кнопки",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "В настройках аккаунта кнопки «Отменить подписку» просто нет.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "В справке написано, что она должна быть в разделе «Биллинг», но там её нет.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T013",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Кириллица не ищется вообще. Если пишу на латинице — иногда находит. Задачи часто имеют русские названия, это критично для нас.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "это критично для нас",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Ввожу в поиск название задачи, которую точно вижу в списке — поиск возвращает «ничего не найдено».",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "поиск возвращает «ничего не найдено»",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T014",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "тариф изменён с Pro (2490 руб/мес) на Enterprise (7990 руб/мес). Никакого согласия на смену не давала",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Прошу немедленно вернуть тариф Pro и вернуть разницу за этот месяц.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Открываю настройки — тариф изменён с Pro на Enterprise",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Никакого согласия на смену не давала, никакого письма не получала.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T015",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Без SSO мы не можем запустить продукт для 150 сотрудников — это блокер всего внедрения.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "три дня пытается настроить SSO-вход",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "для 150 сотрудников",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Документация устарела, инструкции не соответствуют текущему интерфейсу.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T016",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Это договора с клиентами — очень важные документы.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "данные нужно восстановить",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "несколько PDF-файлов, прикреплённых к задачам в проекте, больше недоступны",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Ссылки показывают «Файл не найден».",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T017",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "приложение вылетает примерно раз в 10 минут",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Теряю несмотрённые уведомления и несохранённые правки",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Коллеги с Android такой проблемы не имеют",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Переустанавливал трижды — не помогло",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "ticket_id": "T018",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Нет возможности настроить права доступа по ролям",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Поддержка отвечает «скоро появится» уже три месяца",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "В нашей компании нужно ограничить доступ разных отделов",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Поддержка отвечает «скоро появится» уже три месяца",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T019",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "процесс завис на 4 часа со статусом «синхронизирую...»",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Прервать синхронизацию нельзя — кнопки отмены нет",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Задач у нас 2 000 штук",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Теперь всё приложение работает очень медленно",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "ticket_id": "T020",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "positive",
+        "quote": "Я понимаю, что есть лимиты на бесплатном тарифе",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "positive",
+        "quote": "Добавьте хотя бы понятное сообщение с предложением апгрейда",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "нигде при регистрации и в процессе создания четвёртого проекта не было предупреждения",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "просто выдало ошибку без объяснения",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T021",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "все дедлайны в проектах сдвинулись на один день раньше",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Команда начала паниковать",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "Это массовая проблема — у всех коллег то же самое",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "После последнего обновления все дедлайны... сдвинулись",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "ticket_id": "T022",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "критический баг-репорт",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Ситуация срочная: часть данных недоступна",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "часть данных недоступна",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "ни одного ответа. Ни автоответа, ни тикет-номера, ничего",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "ticket_id": "T023",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "теперь не могу войти ни со старым, ни с новым email",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Три года данных в аккаунте. Помогите восстановить доступ",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "аккаунт не найден",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "теперь не могу войти",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "ticket_id": "T024",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "формулы вернули «#ERROR» во всех задачах",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "данные для биллинга клиентов неверны",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "во всех задачах",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "После обновления в пятницу формулы вернули «#ERROR»",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "ticket_id": "T025",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Просила добавить тёмную тему ещё полгода назад через форму фичреквеста — ни ответа, ни реализации.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "positive",
+        "quote": "Работаю с приложением по вечерам, очень яркий белый интерфейс.",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Просила добавить тёмную тему ещё полгода назад через форму фичреквеста — ни ответа, ни реализации.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "ни ответа, ни реализации.",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "ticket_id": "T026",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Это потенциальная утечка данных, срочно требуется расследование и изоляция данных.",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "срочно требуется расследование и изоляция данных.",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "вижу задачи и комментарии другой организации.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Это потенциальная утечка данных, срочно требуется расследование и изоляция данных.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T027",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Импортировала доску из Trello с 300 карточками. В системе оказалось 148 задач. Оставшиеся 152 просто исчезли.",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Это активный проект, данные нужны сегодня.",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Импортировала доску из Trello с 300 карточками.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Оставшиеся 152 просто исчезли.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T028",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "positive",
+        "quote": "В настройках организации поле «Название» есть, но сохранить изменения нельзя — кнопка «Сохранить» неактивна после редактирования.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "positive",
+        "quote": "Нам нужно обновить название после ребрендинга.",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Пробовал в разных браузерах.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "кнопка «Сохранить» неактивна после редактирования.",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "ticket_id": "T029",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Из-за этого пропустили дедлайн — я была уверена, что до понедельника ещё сутки.",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Из-за этого пропустили дедлайн",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Настроила повторение задачи каждую неделю по понедельникам.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Задача создаётся, но дата всегда на воскресенье.",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "ticket_id": "T030",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Наша автоматизация полностью сломана — 80% задач именно в подпроектах.",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Наша автоматизация полностью сломана",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "80% задач именно в подпроектах.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Работают только для задач верхнего уровня. Задачи в подпроектах (вложенность 2+ уровня) не триггерят webhook.",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "ticket_id": "T031",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "positive",
+        "quote": "Потратила 4 часа на ручное переназначение — это ужасно неудобно.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "positive",
+        "quote": "Уволился сотрудник. Нужно переназначить 200 его задач на другого человека.",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Нужно переназначить 200 его задач",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Функции массового переназначения нет. Только поштучно.",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "ticket_id": "T032",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "После обновления приложения с версии 3.1 до 3.2 все теги на задачах исчезли.",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "positive",
+        "quote": "Теги использовались для фильтрации — теперь фильтрация не работает.",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "все теги на задачах исчезли.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Теги созданы остались в справочнике, но на задачах их нет.",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "ticket_id": "T033",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "positive",
+        "quote": "Проблема сама по себе несрочная",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "жду ответа 3 дня",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Проблема сама по себе несрочная",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "ответа нет",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "ticket_id": "T034",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Двухфакторная аутентификация блокирует вход",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Заблокировано 12 аккаунтов",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "у половины команды работает, у другой нет. Заблокировано 12 аккаунтов",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "SMS не приходит",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T035",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "диаграмма Ганта их не отображает и не учитывает при сдвиге дат",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "neutral",
+        "quote": "По документации это должно работать автоматически",
+        "confidence": 0.6
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Расставила зависимости между задачами",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "диаграмма Ганта их не отображает и не учитывает",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "ticket_id": "T036",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "positive",
+        "quote": "Уведомления внутри приложения нормальные",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "neutral",
+        "quote": "Получаю по 8-10 писем в день",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "не могу отписаться",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "всё отключил — письма продолжают приходить",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "ticket_id": "T037",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "данные вводят в заблуждение",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Используем этот отчёт для планирования спринтов",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "несколько сотрудников показаны на 200%+ загруженности",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "задачи считаются дважды",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "ticket_id": "T038",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "нет доступа к своим же данным — это нечестно",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "neutral",
+        "quote": "Решил перейти на другой сервис",
+        "confidence": 0.6
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Хочу экспортировать все данные",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Функция экспорта есть, но работает только для платных тарифов",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "ticket_id": "T039",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "структура папок и вложенность теряются — всё становится плоским списком",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "neutral",
+        "quote": "Приходится вручную пересоздавать структуру каждый раз",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "positive",
+        "quote": "Использую «Копировать проект» как шаблон",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "структура папок и вложенность теряются",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "ticket_id": "T040",
+    "aspects": [
+      {
+        "aspect": "severity",
+        "sentiment": "negative",
+        "quote": "Это дыра в безопасности",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "urgency",
+        "sentiment": "negative",
+        "quote": "Из корпоративного проекта исчезли несколько задач",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "scope",
+        "sentiment": "negative",
+        "quote": "Из корпоративного проекта исчезли несколько задач",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "resolution",
+        "sentiment": "negative",
+        "quote": "Аудит-лог не записывает удаление задач",
+        "confidence": 0.95
+      }
+    ]
+  }
+]
