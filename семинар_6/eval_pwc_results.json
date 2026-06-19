@@ -2,7 +2,7 @@
   {
     "id": "Q1",
     "query": "Во сколько раз USD подорожал с 1 января 2022 по сегодня?",
-    "comment": "Класс ошибки C: одиночный часто считает в уме, не зовёт calculate. PWC должен починить — Planner обязан добавить calculate-подвопрос.",
+    "comment": "Класс ошибки C: одиночный часто считает в уме, не зовёт calculate. PWC должен починить — Планировщик обязан добавить calculate-подвопрос.",
     "n": 1,
     "single": {
       "runs": [
@@ -15,12 +15,12 @@
           "hallucinated": [],
           "must_have_ok": true,
           "arith_without_calc": false,
-          "answer_preview": "Курс доллара США **не подорожал, а подешевел** за этот период.\n\nНа 1 января 2022 года курс USD составлял **74,29 ₽**, а на сегодня (15 июня 2026) — **71,91 ₽**. Таким образом, долл"
+          "answer_preview": "Курс USD на 1 января 2022 года составлял **74,29 руб.**, а сегодня (19 июня 2026) — **73,36 руб.** Доллар не подорожал, а наоборот, **подешевел в ~0,99 раза**, то есть примерно на "
         }
       ],
       "pass": 1
     },
-    "pwc": {
+    "pwc_no_validator": {
       "runs": [
         {
           "ok": false,
@@ -36,7 +36,30 @@
           "hallucinated_in_plan": [],
           "must_have_ok": false,
           "iterations": 1,
-          "answer_preview": "Курс USD на 1 января 2022 года (официальный курс ЦБ РФ) составлял **74,2926 рубля** за 1 доллар. · Курс доллара США к рублю на сегодня, 15 июня 2026 года, составляет **71,91 руб./$"
+          "elapsed_sec": 13.563522614000249,
+          "answer_preview": "С 1 января 2022 года по сегодняшний день (19 июня 2026 года) курс USD не вырос, а снизился: сегодняшний курс (73,36 руб.) составляет примерно 0,987 от курса на начало 2022 года (74"
+        }
+      ],
+      "pass": 0
+    },
+    "pwc_validator": {
+      "runs": [
+        {
+          "ok": false,
+          "used_tools": [
+            "calculate",
+            "get_fx_rate"
+          ],
+          "plan_tools": [
+            "calculate",
+            "get_fx_rate"
+          ],
+          "hallucinated_in_workers": [],
+          "hallucinated_in_plan": [],
+          "must_have_ok": false,
+          "iterations": 3,
+          "elapsed_sec": 38.95962749699993,
+          "answer_preview": ""
         }
       ],
       "pass": 0
@@ -59,33 +82,82 @@
           "hallucinated": [],
           "must_have_ok": true,
           "arith_without_calc": false,
-          "answer_preview": "Готово. Вот итоговый ответ:\n\n**Реальная ключевая ставка сейчас составляет ≈ 5,77% годовых.**\n\nРасчёт: 16,0% (ключевая ставка) − 10,23% (инфляция за апрель 2025, % г/г).\n\n⚠️ Небольш"
+          "answer_preview": "**Реальная ключевая ставка** (ключевая ставка минус инфляция за последний доступный месяц — март 2025 года) составляет **5,66% годовых**.\n\n*Примечание: данные по ключевой ставке по"
         }
       ],
       "pass": 1
     },
-    "pwc": {
+    "pwc_no_validator": {
       "runs": [
         {
-          "ok": false,
-          "used_tools": [],
-          "plan_tools": [],
+          "ok": true,
+          "used_tools": [
+            "calculate",
+            "get_inflation",
+            "get_key_rate"
+          ],
+          "plan_tools": [
+            "calculate",
+            "get_inflation",
+            "get_key_rate"
+          ],
           "hallucinated_in_workers": [],
           "hallucinated_in_plan": [],
-          "must_have_ok": false,
-          "iterations": 3,
-          "answer_preview": ""
+          "must_have_ok": true,
+          "iterations": 1,
+          "elapsed_sec": 16.523394430999815,
+          "answer_preview": "Реальная ключевая ставка, рассчитанная как разница между текущей ставкой ЦБ (16,0% годовых) и инфляцией за апрель 2025 года (10,23% г/г), составляет **5,77% годовых**."
         }
       ],
-      "pass": 0
+      "pass": 1
+    },
+    "pwc_validator": {
+      "runs": [
+        {
+          "ok": true,
+          "used_tools": [
+            "calculate",
+            "get_inflation",
+            "get_key_rate"
+          ],
+          "plan_tools": [
+            "calculate",
+            "get_inflation",
+            "get_key_rate"
+          ],
+          "hallucinated_in_workers": [],
+          "hallucinated_in_plan": [],
+          "must_have_ok": true,
+          "iterations": 3,
+          "elapsed_sec": 74.88625078599989,
+          "answer_preview": "Реальная ключевая ставка, рассчитанная как разница между текущей ставкой ЦБ (16,0% годовых) и инфляцией за апрель 2025 года (10,23% г/г), составляет **5,77% годовых**."
+        }
+      ],
+      "pass": 1
     }
   },
   {
     "id": "Q3",
     "query": "Какова накопленная инфляция с января 2022 по март 2026? Рассчитай как произведение всех (1 + ипц_м/100) по месяцам.",
-    "comment": "Класс ошибки D (граница паттерна): требует get_inflation за много месяцев + большое calculate-выражение. Одиночный галлюцинирует get_cumulative_inflation; PWC обычно тоже (Planner может добавить фейк-tool в план). Это — повод для Schema-Validator в домашке.",
+    "comment": "Класс ошибки D (граница паттерна): требует get_inflation за много месяцев + большое calculate-выражение. Одиночный галлюцинирует get_cumulative_inflation; PWC обычно тоже (Планировщик может добавить выдуманный инструмент в план). Это — повод для Schema-Validator в домашке.",
     "n": 1,
     "single": {
+      "runs": [
+        {
+          "ok": true,
+          "used_tools": [
+            "calculate",
+            "get_inflation"
+          ],
+          "hallucinated": [],
+          "must_have_ok": true,
+          "arith_without_calc": false,
+          "answer_preview": "Накопленный множитель ≈ 85,87, то есть цены выросли в ~85,9 раза. Это даёт накопленную инфляцию около 8 487%. \n\nОднако давайте перепроверю — возможно, я неверно интерпретировал зад"
+        }
+      ],
+      "pass": 1
+    },
+    "pwc_no_validator": {
       "runs": [
         {
           "ok": false,
@@ -93,28 +165,224 @@
             "calculate",
             "get_inflation"
           ],
-          "hallucinated": [],
+          "plan_tools": [
+            "calculate",
+            "get_inflation"
+          ],
+          "hallucinated_in_workers": [],
+          "hallucinated_in_plan": [],
           "must_have_ok": false,
-          "arith_without_calc": false,
+          "iterations": 3,
+          "elapsed_sec": 102.68316690899974,
           "answer_preview": ""
         }
       ],
       "pass": 0
     },
-    "pwc": {
+    "pwc_validator": {
       "runs": [
         {
           "ok": false,
-          "used_tools": [],
-          "plan_tools": [],
+          "used_tools": [
+            "calculate",
+            "get_inflation"
+          ],
+          "plan_tools": [
+            "calculate",
+            "get_inflation"
+          ],
           "hallucinated_in_workers": [],
           "hallucinated_in_plan": [],
           "must_have_ok": false,
           "iterations": 3,
+          "elapsed_sec": 96.08935482800007,
           "answer_preview": ""
         }
       ],
       "pass": 0
+    }
+  },
+  {
+    "id": "Q4",
+    "query": "Какой объём денежной массы М2 в России на конец 2024 года, и насколько он вырос за год?",
+    "comment": "Вопрос про М2 — данных нет ни в одном из 4 инструментов. С production planner.py (явный запрет придумывать tools) все три конфигурации честно отказываются — это и есть правильное поведение. Демонстрация того, что Schema-Validator РЕАЛЬНО ловит галлюцинации, сделана отдельно через naive_planner.py (см. отчёт, часть 1) — там planner без анти-галлюцинаторного правила придумывает get_money_supply, а валидатор перехватывает это сразу (0 итераций), тогда как без валидатора Worker+Critic тратят 2 полные итерации, прежде чем прийти к тому же честному отказу.",
+    "n": 1,
+    "single": {
+      "runs": [
+        {
+          "ok": true,
+          "used_tools": [],
+          "hallucinated": [],
+          "must_have_ok": true,
+          "arith_without_calc": false,
+          "answer_preview": "К сожалению, у меня нет инструмента для получения данных о денежной массе М2. Мои доступные инструменты позволяют получать только:\n\n1. **Курсы валют** (get_fx_rate)\n2. **Ключевую с"
+        }
+      ],
+      "pass": 1
+    },
+    "pwc_no_validator": {
+      "runs": [
+        {
+          "ok": true,
+          "used_tools": [],
+          "plan_tools": [],
+          "hallucinated_in_workers": [],
+          "hallucinated_in_plan": [],
+          "must_have_ok": true,
+          "iterations": 3,
+          "elapsed_sec": 11.343758684000022,
+          "answer_preview": "не удалось получить вердикт 'accept' за 3 итераций"
+        }
+      ],
+      "pass": 1
+    },
+    "pwc_validator": {
+      "runs": [
+        {
+          "ok": true,
+          "used_tools": [],
+          "plan_tools": [],
+          "hallucinated_in_workers": [],
+          "hallucinated_in_plan": [],
+          "must_have_ok": true,
+          "iterations": 3,
+          "elapsed_sec": 10.310887874999935,
+          "answer_preview": "не удалось получить вердикт 'accept' за 3 итераций"
+        }
+      ],
+      "pass": 1
+    }
+  },
+  {
+    "id": "Q5",
+    "query": "Какие сейчас курсы USD, EUR и CNY к рублю? Просто перечисли все три.",
+    "comment": "Естественная параллельность: 3 независимых подвопроса (get_fx_rate × 3) на одном уровне зависимостей — кейс для замера ускорения из части 2 (bench_parallel.py: ~3.2x).",
+    "n": 1,
+    "single": {
+      "runs": [
+        {
+          "ok": true,
+          "used_tools": [
+            "get_fx_rate"
+          ],
+          "hallucinated": [],
+          "must_have_ok": true,
+          "arith_without_calc": false,
+          "answer_preview": "Вот актуальные официальные курсы ЦБ РФ на 19 июня 2026 года:\n\n- **USD (доллар США)** — **73,36 ₽**\n- **EUR (евро)** — **85,03 ₽**\n- **CNY (китайский юань)** — **10,83 ₽**"
+        }
+      ],
+      "pass": 1
+    },
+    "pwc_no_validator": {
+      "runs": [
+        {
+          "ok": false,
+          "used_tools": [
+            "get_fx_rate"
+          ],
+          "plan_tools": [
+            "get_fx_rate"
+          ],
+          "hallucinated_in_workers": [],
+          "hallucinated_in_plan": [],
+          "must_have_ok": false,
+          "iterations": 1,
+          "elapsed_sec": 16.79942513900005,
+          "answer_preview": "По данным на 19 июня 2026 года, курсы валют к рублю составляют: 73,36 рубля за доллар США, 85,03 рубля за евро и 10,8284 рубля за китайский юань."
+        }
+      ],
+      "pass": 0
+    },
+    "pwc_validator": {
+      "runs": [
+        {
+          "ok": false,
+          "used_tools": [
+            "get_fx_rate"
+          ],
+          "plan_tools": [
+            "get_fx_rate"
+          ],
+          "hallucinated_in_workers": [],
+          "hallucinated_in_plan": [],
+          "must_have_ok": false,
+          "iterations": 1,
+          "elapsed_sec": 12.30953469799988,
+          "answer_preview": "По данным на 19 июня 2026 года, курсы валют к рублю составляют: 73,36 рубля за доллар США, 85,03 рубля за евро и 10,8284 рубля за китайский юань."
+        }
+      ],
+      "pass": 0
+    }
+  },
+  {
+    "id": "Q6",
+    "query": "На сколько процентных пунктов изменилась реальная ключевая ставка ЦБ (ставка минус инфляция) с начала 2023 года до сегодня?",
+    "comment": "Реальный вопрос по макроэкономике: 4 независимых факта (ставка и инфляция на 2 даты) + 1 calculate-подвопрос с depends_on на все четыре — хороший тест на DAG глубже одного уровня и на дисциплину 'считай через calculate'.",
+    "n": 1,
+    "single": {
+      "runs": [
+        {
+          "ok": true,
+          "used_tools": [
+            "calculate",
+            "get_inflation",
+            "get_key_rate"
+          ],
+          "hallucinated": [],
+          "must_have_ok": true,
+          "arith_without_calc": false,
+          "answer_preview": "Вот итоговый ответ.\n\n---\n\nРеальная ключевая ставка ЦБ (ключевая ставка минус инфляция г/г) изменилась с **–4,44 п.п.** на начало 2023 года (7,5% – 11,94%) до **+9,20 п.п.** сегодня"
+        }
+      ],
+      "pass": 1
+    },
+    "pwc_no_validator": {
+      "runs": [
+        {
+          "ok": true,
+          "used_tools": [
+            "calculate",
+            "get_inflation",
+            "get_key_rate"
+          ],
+          "plan_tools": [
+            "calculate",
+            "get_inflation",
+            "get_key_rate"
+          ],
+          "hallucinated_in_workers": [],
+          "hallucinated_in_plan": [],
+          "must_have_ok": true,
+          "iterations": 2,
+          "elapsed_sec": 40.44663662599987,
+          "answer_preview": "С начала 2023 года по сегодняшний день реальная ключевая ставка ЦБ (ставка минус инфляция) выросла на 10,77 процентного пункта — с –4,27% до 6,5% годовых."
+        }
+      ],
+      "pass": 1
+    },
+    "pwc_validator": {
+      "runs": [
+        {
+          "ok": true,
+          "used_tools": [
+            "calculate",
+            "get_inflation",
+            "get_key_rate"
+          ],
+          "plan_tools": [
+            "calculate",
+            "get_inflation",
+            "get_key_rate"
+          ],
+          "hallucinated_in_workers": [],
+          "hallucinated_in_plan": [],
+          "must_have_ok": true,
+          "iterations": 2,
+          "elapsed_sec": 48.87826228899985,
+          "answer_preview": "С начала 2023 года (реальная ставка –4,27%) до сегодня (реальная ставка 6,5%) реальная ключевая ставка ЦБ выросла на 10,77 процентных пункта."
+        }
+      ],
+      "pass": 1
     }
   }
 ]
