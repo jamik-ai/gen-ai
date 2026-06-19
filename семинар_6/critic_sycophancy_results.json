@@ -1,0 +1,147 @@
+[
+  {
+    "case": "арифметика без calculate",
+    "t0_false_accept": 9,
+    "t7_false_accept": 6,
+    "t0_actions": [
+      "accept",
+      "accept",
+      "rework",
+      "accept",
+      "accept",
+      "accept",
+      "accept",
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "t7_actions": [
+      "accept",
+      "accept",
+      "rework",
+      "accept",
+      "rework",
+      "rework",
+      "accept",
+      "accept",
+      "accept",
+      "rework"
+    ]
+  },
+  {
+    "case": "выдуманное число (calculate вызван, результат не соответствует входам)",
+    "t0_false_accept": 0,
+    "t7_false_accept": 0,
+    "t0_actions": [
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework"
+    ],
+    "t7_actions": [
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework"
+    ]
+  },
+  {
+    "case": "несогласованные данные между подвопросами",
+    "t0_false_accept": 0,
+    "t7_false_accept": 0,
+    "t0_actions": [
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework"
+    ],
+    "t7_actions": [
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework"
+    ]
+  },
+  {
+    "case": "ответ с ошибкой не помечен (ошибка пропущена в финал)",
+    "t0_false_accept": 0,
+    "t7_false_accept": 0,
+    "t0_actions": [
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework"
+    ],
+    "t7_actions": [
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework",
+      "rework"
+    ]
+  },
+  {
+    "case": "план не покрывает весь вопрос",
+    "t0_false_accept": 0,
+    "t7_false_accept": 0,
+    "t0_actions": [
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan"
+    ],
+    "t7_actions": [
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan",
+      "replan"
+    ]
+  }
+]

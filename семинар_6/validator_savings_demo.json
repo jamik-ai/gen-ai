@@ -1,0 +1,18 @@
+{
+  "no_validator": {
+    "answer": null,
+    "error": "не удалось получить вердикт 'accept' за 2 итераций",
+    "iterations": 2,
+    "elapsed_sec": 22.23623287600003,
+    "trace_len": 10,
+    "n_worker_calls": 6
+  },
+  "with_validator": {
+    "answer": null,
+    "error": "валидатор не пропустил план после 2 попыток: [\"подвопрос 1 использует несуществующие инструменты: ['get_money_supply_m2']\", \"подвопрос 2 использует несуществующие инструменты: ['get_money_supply_m2']\"]",
+    "iterations": 0,
+    "elapsed_sec": 10.214644572999987,
+    "trace_len": 6,
+    "n_worker_calls": 0
+  }
+}
