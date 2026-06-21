@@ -1,0 +1,47 @@
+{
+  "ticket_id": "TCK-0017",
+  "description": "building room dear please room until please attached thank regards lead ext",
+  "gold_category": "CategoryC",
+  "extraction": {
+    "category": "CategoryA",
+    "urgency": "low",
+    "key_topic": "Building room request",
+    "estimated_resolution_days": 5,
+    "confidence": 0.6
+  },
+  "reply": {
+    "reply": "Thank you for your inquiry regarding the building room. Unfortunately, I couldn't find any specific information related to your request in our knowledge base. I will forward your question to a specialist who can assist you further.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [],
+    "helpfulness": 0.0,
+    "overall_score": 0.0,
+    "summary": "Агент не предоставил никакой специфической информации и не смог ответить на запрос клиента."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2120,
+    "completion_tokens": 165,
+    "cost_usd": 0.000344,
+    "elapsed_s": 17.03
+  },
+  "classification_correct": false
+}

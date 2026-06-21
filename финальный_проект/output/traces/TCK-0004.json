@@ -1,0 +1,58 @@
+{
+  "ticket_id": "TCK-0004",
+  "description": "hello location shares thanks",
+  "gold_category": "CategoryA",
+  "extraction": {
+    "category": "CategoryD",
+    "urgency": "low",
+    "key_topic": "User permissions change",
+    "estimated_resolution_days": 5,
+    "confidence": 0.6
+  },
+  "reply": {
+    "reply": "Thank you for your inquiry regarding location shares. Unfortunately, I couldn't find any specific information related to this topic in our knowledge base. I will forward your question to a specialist who can assist you further.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "The agent could not find specific information related to location shares in the knowledge base.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The agent will forward the question to a specialist.",
+        "support": "not_supported",
+        "comment": "The KB does not mention this action."
+      }
+    ],
+    "helpfulness": 0.5,
+    "overall_score": 0.25,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2088,
+    "completion_tokens": 163,
+    "cost_usd": 0.000338,
+    "elapsed_s": 14.88
+  },
+  "classification_correct": false
+}

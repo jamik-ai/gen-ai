@@ -1,0 +1,77 @@
+{
+  "ticket_id": "TCK-0027",
+  "description": "sent friday october re starter access card enabling hi tested card door th floor th floor work second damaged access card lot recently ordered one was one manager sent friday october starter access card enabling hello could you please let know what areas accessible with card could you please test more doors we might determine if really damaged him another card if case please provide another card thank you kind regards analyst ext hub sent friday october re starter access card enabling wrote hello please be advised your request completed should there be anything we assist with let know thank you kind regards analyst ext hub sent thursday october access card for hi please activate card for thanks manager",
+  "gold_category": "CategoryE",
+  "extraction": {
+    "category": "CategoryC",
+    "urgency": "medium",
+    "key_topic": "damaged access card issue",
+    "estimated_resolution_days": 3,
+    "confidence": 0.85
+  },
+  "reply": {
+    "reply": "It seems that your request regarding the access card has been noted. Please be informed that access to restricted doors or floors requires approval from both your line manager and the Security Manager, with a combined approval SLA of 3 business days. If you suspect that your card is damaged, please test it on multiple doors to confirm. If it is indeed not functioning, a replacement card can be issued within 2 business days, with a fee of $15 charged to your department's budget. \n\nIf you have any further questions, feel free to ask! \n\nCited facts: \n- \"A request for access to a restricted door or floor is approved in two stages: the line manager, then the Security Manager. The combined approval SLA is 3 business days.\"\n- \"A replacement card is issued within 2 business days. The replacement fee is $15, charged to the employee's department budget.\"\n\nKB chunk IDs: [\"C2_restricted_door\", \"C1_lost_card\"] \n\nNow, I will submit the reply.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "Access to restricted doors or floors requires approval from both the line manager and the Security Manager.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The combined approval SLA is 3 business days.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "A replacement card can be issued within 2 business days.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The replacement fee is $15, charged to the employee's department budget.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "If the card is suspected to be damaged, it should be tested on multiple doors to confirm.",
+        "support": "weakly_supported",
+        "comment": "Not directly stated in the KB, but logically follows from the context."
+      }
+    ],
+    "helpfulness": 1.0,
+    "overall_score": 1.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 6,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "C1_lost_card": "# Category C: lost access card\n\nAn employee must report a lost card to the Security Desk within **24 hours** of noticing the loss. The old\ncard is blocked immediately once reported.\n\nA replacement card is issued within **2 business days**. The replacement fee is **$15**, charged to the\nemployee's department budget.",
+    "C2_restricted_door": "# Category C: access to restricted doors\n\nA request for access to a restricted door or floor is approved in two stages: the line manager, then the\nSecurity Manager. The combined approval SLA is **3 business days**.\n\nWithout Security Manager sign-off, access to server rooms and archives is never granted, under any\ncircumstances.",
+    "C3_access_log": "# Category C: access event log\n\nThe access event log (who, when, which door) is retained for **90 days** from the event. After that period\nthe record cannot be recovered.\n\nOnly a Security Manager can request an export of the log for an incident period — a regular employee\ncannot request it themselves."
+  },
+  "path": {
+    "n_llm_calls": 2,
+    "n_tool_calls": 3,
+    "n_responder_steps": 4,
+    "reworked": false,
+    "prompt_tokens": 4128,
+    "completion_tokens": 275,
+    "cost_usd": 0.000654,
+    "elapsed_s": 15.91
+  },
+  "classification_correct": false
+}

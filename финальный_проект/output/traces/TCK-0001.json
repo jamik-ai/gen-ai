@@ -1,0 +1,67 @@
+{
+  "ticket_id": "TCK-0001",
+  "description": "help hi middle contest hosted machine accessed please help possible by thanks senior tester",
+  "gold_category": "CategoryA",
+  "extraction": {
+    "category": "CategoryA",
+    "urgency": "medium",
+    "key_topic": "access to hosted machine",
+    "estimated_resolution_days": 3,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "It seems that your request regarding access to the hosted machine for the middle contest is related to server and test machine outages. If there is a critical outage, it is restored by the SRE team under an SLA of **4 hours** from ticket registration. For any requests to add devices to a test environment, they are handled within **2 business days**, and the QA Lead must approve the request. If you need further assistance, I will escalate your issue to a specialist.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "A critical outage is restored by the SRE team under an SLA of 4 hours from ticket registration.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "Requests to add devices to a test environment are handled within 2 business days.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The QA Lead must approve the request to add devices.",
+        "support": "supported",
+        "comment": ""
+      }
+    ],
+    "helpfulness": 0.8,
+    "overall_score": 0.9,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 2,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "A1_server_outage": "# Category A: server and test machine outages\n\nA critical outage of a production server (host unreachable, connect status = failed) is restored by the SRE\nteam under an SLA of **4 hours** from ticket registration. Root-cause diagnostics (logs, metrics) take up to\n**1 business day**.\n\nRebooting any production host requires approval from the on-call engineer — rebooting it yourself without\napproval is against policy.\n\nEscalation queue: **INFRA-L2**. Contact: Infrastructure Helpdesk.",
+    "A2_test_devices": "# Category A: adding devices to a test environment\n\nA request to add a mobile or server device to a test environment is handled within **2 business days**.\nThe request must include the terminal ID and the device's operating system.\n\nThe QA Lead approves the request. If the device needs to be connected to several machines at once\n(cross-device test), the SLA extends to **3 business days**, since it requires sign-off from every machine\nowner involved.",
+    "A3_disk_alerts": "# Category A: disk and host alerts\n\nAn automatic alert fires when disk usage exceeds **90%**. The alert is escalated to the SRE team, with a\nresponse time of **1 hour**.\n\nIf a host's status shows \"high load\" for longer than **30 minutes** in a row, the system automatically opens\na P2-priority incident."
+  },
+  "path": {
+    "n_llm_calls": 2,
+    "n_tool_calls": 3,
+    "n_responder_steps": 4,
+    "reworked": false,
+    "prompt_tokens": 3786,
+    "completion_tokens": 165,
+    "cost_usd": 0.000577,
+    "elapsed_s": 13.27
+  },
+  "classification_correct": true
+}

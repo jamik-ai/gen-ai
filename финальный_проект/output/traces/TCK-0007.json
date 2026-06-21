@@ -1,0 +1,75 @@
+{
+  "ticket_id": "TCK-0007",
+  "description": "secured area tower hello please secured area tower intern kindly please approve thank regards officer",
+  "gold_category": "CategoryB",
+  "extraction": {
+    "category": "CategoryB",
+    "urgency": "medium",
+    "key_topic": "Access approval for intern",
+    "estimated_resolution_days": 2,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Hello Officer,\n\nThank you for your request regarding the secured area tower. Please note that a visitor card request must be submitted via the Visitor Access Form, and it will be processed within **1 business day**. The card is valid for a maximum of **5 business days** in a row. If you need access for longer, a new request will be required.\n\nBest regards.",
+    "cited_facts": [
+      "A visitor card request is submitted via the Visitor Access Form. The security officer processes it within 1 business day.",
+      "The card is valid only for the specified floor and tower, and for a maximum of 5 business days in a row."
+    ],
+    "kb_chunk_ids": [
+      "B1_visitor_cards"
+    ]
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "A visitor card request must be submitted via the Visitor Access Form.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The card request will be processed within 1 business day.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The card is valid for a maximum of 5 business days in a row.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "If access is needed for longer, a new request will be required.",
+        "support": "supported",
+        "comment": ""
+      }
+    ],
+    "helpfulness": 1.0,
+    "overall_score": 1.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 2,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 2,
+    "checkable_cited_facts": 2,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "B1_visitor_cards": "# Category B: issuing visitor access cards\n\nA visitor card request is submitted via the Visitor Access Form. The security officer processes it within\n**1 business day**. The card is valid only for the specified floor and tower, and for a maximum of\n**5 business days** in a row.\n\nIf a visitor needs access for longer than 5 days, a new request must be submitted with the receiving\nmanager's sign-off."
+  },
+  "path": {
+    "n_llm_calls": 2,
+    "n_tool_calls": 2,
+    "n_responder_steps": 2,
+    "reworked": false,
+    "prompt_tokens": 1115,
+    "completion_tokens": 179,
+    "cost_usd": 0.000206,
+    "elapsed_s": 13.11
+  },
+  "classification_correct": true
+}

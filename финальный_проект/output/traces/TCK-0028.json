@@ -1,0 +1,47 @@
+{
+  "ticket_id": "TCK-0028",
+  "description": "sent monday november issues hello got laptop for months already intern spotted there specific period when computer disk memory loaded by processes task manager performance shows freezes mostly when loading but also randomly but looking processes summing them get but even less than there something wrong mentor advised could be some hardware issue after looking logs please check request thank you",
+  "gold_category": "CategoryE",
+  "extraction": {
+    "category": "CategoryA",
+    "urgency": "medium",
+    "key_topic": "Laptop hardware issue",
+    "estimated_resolution_days": 5,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for reaching out regarding the performance issues with your laptop. Unfortunately, I couldn't find specific information related to your query in our knowledge base. I will forward your request to a specialist who can assist you further. Thank you for your patience!",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [],
+    "helpfulness": 0.5,
+    "overall_score": 0.5,
+    "summary": "Ответ соответствует категории тикета, но не содержит фактических утверждений. Полезность ограничена."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2330,
+    "completion_tokens": 192,
+    "cost_usd": 0.00038,
+    "elapsed_s": 15.41
+  },
+  "classification_correct": false
+}

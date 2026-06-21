@@ -1,0 +1,65 @@
+{
+  "ticket_id": "TCK-0011",
+  "description": "floor hi please provide floor while currently assigned under secure backup once ongoing bids translate actual contracts best regards mob ext",
+  "gold_category": "CategoryB",
+  "extraction": {
+    "category": "CategoryA",
+    "urgency": "medium",
+    "key_topic": "floor access request",
+    "estimated_resolution_days": 5,
+    "confidence": 0.7
+  },
+  "reply": {
+    "reply": "Hello, thank you for your inquiry. Unfortunately, I couldn't find specific information regarding the floor while assigned under secure backup or the translation of ongoing bids into actual contracts. I have escalated your request to a specialist who will be able to assist you further. Best regards.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "There is no specific information regarding the floor while assigned under secure backup.",
+        "support": "not_supported",
+        "comment": "The KB does not mention anything about 'floor' or 'secure backup'."
+      },
+      {
+        "claim": "There is no specific information regarding the translation of ongoing bids into actual contracts.",
+        "support": "not_supported",
+        "comment": "The KB does not mention anything about 'ongoing bids' or 'actual contracts'."
+      },
+      {
+        "claim": "The inquiry has been escalated to a specialist.",
+        "support": "not_supported",
+        "comment": "There is no supporting information in the KB to verify this claim."
+      }
+    ],
+    "helpfulness": 0.0,
+    "overall_score": 0.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "A1_server_outage": "# Category A: server and test machine outages\n\nA critical outage of a production server (host unreachable, connect status = failed) is restored by the SRE\nteam under an SLA of **4 hours** from ticket registration. Root-cause diagnostics (logs, metrics) take up to\n**1 business day**.\n\nRebooting any production host requires approval from the on-call engineer — rebooting it yourself without\napproval is against policy.\n\nEscalation queue: **INFRA-L2**. Contact: Infrastructure Helpdesk."
+  },
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 6,
+    "n_responder_steps": 6,
+    "reworked": true,
+    "prompt_tokens": 3848,
+    "completion_tokens": 237,
+    "cost_usd": 0.000606,
+    "elapsed_s": 15.8
+  },
+  "classification_correct": false
+}

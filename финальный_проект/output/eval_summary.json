@@ -1,0 +1,53 @@
+{
+  "n_tickets": 30,
+  "correctness": {
+    "classification_accuracy": 0.533,
+    "judge_pass_rate": 0.433,
+    "avg_judge_overall_score": 0.476,
+    "category_consistency_rate": 0.7,
+    "confusion_matrix": {
+      "CategoryA": {
+        "CategoryA": 4,
+        "CategoryD": 1,
+        "CategoryE": 1
+      },
+      "CategoryB": {
+        "CategoryB": 4,
+        "CategoryA": 1,
+        "CategoryD": 1
+      },
+      "CategoryC": {
+        "CategoryA": 2,
+        "CategoryD": 1,
+        "CategoryC": 2,
+        "CategoryB": 1
+      },
+      "CategoryD": {
+        "CategoryD": 6
+      },
+      "CategoryE": {
+        "CategoryA": 4,
+        "CategoryD": 1,
+        "CategoryC": 1
+      }
+    }
+  },
+  "hallucination": {
+    "ghost_number_rate_overall": 0.0,
+    "total_numeric_claims": 29,
+    "total_ghost_numbers": 0,
+    "ghost_fact_rate_overall": 0.0,
+    "total_cited_facts": 19,
+    "total_ghost_facts": 0,
+    "no_kb_retrieved_rate": 0.533
+  },
+  "path": {
+    "rework_rate": 0.633,
+    "avg_llm_calls_per_ticket": 3.27,
+    "avg_tool_calls_per_ticket": 3.8,
+    "avg_elapsed_s_per_ticket": 14.74,
+    "total_prompt_tokens": 82864,
+    "total_completion_tokens": 5840,
+    "total_cost_usd": 0.0132
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ticket_id": "TCK-0006",
+  "description": "friday pm neon inserts instances hi please getting backup inserts database creating database structure getting backup possible please instance instead backup inserts please assign thanks application engineer",
+  "gold_category": "CategoryA",
+  "extraction": {
+    "category": "CategoryA",
+    "urgency": "medium",
+    "key_topic": "Database backup and structure",
+    "estimated_resolution_days": 5,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for your inquiry regarding database backup inserts. Unfortunately, I couldn't find specific information related to your request in our knowledge base. I will forward your question to a specialist who can assist you further.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": false,
+    "claims": [],
+    "helpfulness": 0.0,
+    "overall_score": 0.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2194,
+    "completion_tokens": 170,
+    "cost_usd": 0.000354,
+    "elapsed_s": 16.97
+  },
+  "classification_correct": true
+}

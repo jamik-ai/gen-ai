@@ -1,0 +1,58 @@
+{
+  "ticket_id": "TCK-0030",
+  "description": "re moving testing analysis starting hi considering please help completion attached form thank lead friday december pm moving testing analysis starting hello please note moving analysis discipline starting st please find attached his his please let required thank help head analysis architecture",
+  "gold_category": "CategoryE",
+  "extraction": {
+    "category": "CategoryA",
+    "urgency": "medium",
+    "key_topic": "moving testing analysis completion",
+    "estimated_resolution_days": 5,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for reaching out regarding the moving testing analysis. Unfortunately, I couldn't find any specific information in our knowledge base related to your request. I will forward your inquiry to a specialist who can assist you further.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "The agent could not find specific information in the knowledge base.",
+        "support": "not_supported",
+        "comment": "The response does not provide any specific information from the KB."
+      },
+      {
+        "claim": "The agent will forward the inquiry to a specialist.",
+        "support": "not_supported",
+        "comment": "This action is not mentioned in the KB and seems to be an assumption by the agent."
+      }
+    ],
+    "helpfulness": 0.0,
+    "overall_score": 0.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2260,
+    "completion_tokens": 170,
+    "cost_usd": 0.000363,
+    "elapsed_s": 15.78
+  },
+  "classification_correct": false
+}

@@ -1,0 +1,75 @@
+{
+  "ticket_id": "TCK-0009",
+  "description": "area hi please secured area he started today approve pm thank senior",
+  "gold_category": "CategoryB",
+  "extraction": {
+    "category": "CategoryB",
+    "urgency": "medium",
+    "key_topic": "Visitor access approval",
+    "estimated_resolution_days": 2,
+    "confidence": 0.7
+  },
+  "reply": {
+    "reply": "Hello, thank you for your message. Unfortunately, I couldn't find specific information regarding the approval process for secured areas in our knowledge base. I will forward your inquiry to a specialist who can assist you further. Thank you for your patience!",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "The access card during maternity leave is switched to 'suspended' status for up to 140 days.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "Reactivation is done on the employee's own request when they return, processed within 1 business day.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The card is not cancelled outright.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The agent could not find specific information regarding the approval process for secured areas.",
+        "support": "not_supported",
+        "comment": "The agent's claim about not finding information is not supported by the KB."
+      },
+      {
+        "claim": "The agent will forward the inquiry to a specialist.",
+        "support": "not_supported",
+        "comment": "This action is not mentioned in the KB."
+      }
+    ],
+    "helpfulness": 0.0,
+    "overall_score": 0.6,
+    "summary": "Ответ агента соответствует категории тикета, но не предоставляет конкретной информации о процессе утверждения."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "B3_maternity_card": "# Category B: access card during maternity leave\n\nDuring maternity leave the access card is switched to \"suspended\" status for up to **140 days**.\nReactivation is done on the employee's own request when they return, processed within **1 business day**.\n\nThe card is not cancelled outright — this is what distinguishes this process from the leaver process (see\nB2), where the card is blocked permanently."
+  },
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 5,
+    "n_responder_steps": 5,
+    "reworked": true,
+    "prompt_tokens": 2944,
+    "completion_tokens": 206,
+    "cost_usd": 0.00047,
+    "elapsed_s": 22.13
+  },
+  "classification_correct": true
+}

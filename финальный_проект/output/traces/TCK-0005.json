@@ -1,0 +1,47 @@
+{
+  "ticket_id": "TCK-0005",
+  "description": "please items usage hi please advise items expires next renewals needed item number name serial item role sub category location date controller file file print cluster belfast file belfast unknown poland ex virtual platform belfast controller belfast unknown tape library model mr belfast previously temp backup belfast unknown tape library model unknown belfast belfast controller sn changed by ibm coverage purposes manila controller file print ibm high gen tape drive please advise location tape drive controller serial changed color laserjet printer belfast storage tape drive tape drive manila tickets thank administrator phone st content uploads take step today think print",
+  "gold_category": "CategoryA",
+  "extraction": {
+    "category": "CategoryE",
+    "urgency": "medium",
+    "key_topic": "Equipment usage and renewals",
+    "estimated_resolution_days": 5,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for your inquiry regarding item usage and renewals. Unfortunately, I couldn't find specific information related to your request in our knowledge base. I will forward your question to a specialist who can assist you further.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [],
+    "helpfulness": 0.0,
+    "overall_score": 0.0,
+    "summary": "Агент не смог предоставить никакой информации по запросу клиента и отправил его к специалисту."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2588,
+    "completion_tokens": 178,
+    "cost_usd": 0.000412,
+    "elapsed_s": 13.22
+  },
+  "classification_correct": false
+}

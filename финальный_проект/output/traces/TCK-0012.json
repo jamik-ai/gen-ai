@@ -1,0 +1,58 @@
+{
+  "ticket_id": "TCK-0012",
+  "description": "transfer dear changes he needs part attaching transfer form thank kind regards administrator",
+  "gold_category": "CategoryB",
+  "extraction": {
+    "category": "CategoryD",
+    "urgency": "medium",
+    "key_topic": "User transfer request",
+    "estimated_resolution_days": 5,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for your inquiry regarding the transfer form. Unfortunately, I couldn't find specific information related to your request in our knowledge base. I will forward your question to a specialist who can assist you further. Thank you for your patience.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": false,
+    "claims": [
+      {
+        "claim": "I couldn't find specific information related to your request in our knowledge base.",
+        "support": "supported",
+        "comment": "Агент не нашел информации в базе знаний, что соответствует действительности."
+      },
+      {
+        "claim": "I will forward your question to a specialist who can assist you further.",
+        "support": "not_supported",
+        "comment": "Нет подтверждения в KB о том, что вопрос будет передан специалисту."
+      }
+    ],
+    "helpfulness": 0.5,
+    "overall_score": 0.25,
+    "summary": "Ответ агента недостаточно согласуется с категорией тикета и не содержит фактической информации, кроме подтверждения отсутствия данных в базе знаний."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2124,
+    "completion_tokens": 180,
+    "cost_usd": 0.000348,
+    "elapsed_s": 17.28
+  },
+  "classification_correct": false
+}

@@ -1,0 +1,79 @@
+{
+  "ticket_id": "TCK-0014",
+  "description": "va sa cartel la si sa sa manager",
+  "gold_category": "CategoryC",
+  "extraction": {
+    "category": "CategoryD",
+    "urgency": "medium",
+    "key_topic": "manager access issue",
+    "estimated_resolution_days": 5,
+    "confidence": 0.7
+  },
+  "reply": {
+    "reply": "It seems that your inquiry relates to the role of a manager in specific processes. For mailbox handover, when an employee leaves, their mailbox remains accessible in read-only mode for **30 days**, and only the departing employee's line manager can assign delegate access during this time. Additionally, any request to change a user's access rights requires line manager approval and is processed within **3 business days**. If you need further assistance, please let me know!",
+    "cited_facts": [
+      "When an employee leaves, their mailbox stays accessible in read-only mode for 30 days.",
+      "Only the departing employee's line manager can assign delegate access to the mailbox during this period.",
+      "A request to change a user's access rights is processed by an administrator within 3 business days of submission.",
+      "Line manager approval is mandatory."
+    ],
+    "kb_chunk_ids": [
+      "D2_mailbox_handover",
+      "D1_user_change"
+    ]
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "When an employee leaves, their mailbox stays accessible in read-only mode for 30 days.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "Only the departing employee's line manager can assign delegate access to the mailbox during this period.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "A request to change a user's access rights is processed by an administrator within 3 business days of submission.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "Line manager approval is mandatory.",
+        "support": "supported",
+        "comment": ""
+      }
+    ],
+    "helpfulness": 1.0,
+    "overall_score": 1.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 2,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 4,
+    "checkable_cited_facts": 4,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "D2_mailbox_handover": "# Category D: mailbox handover on leaver\n\nWhen an employee leaves, their mailbox stays accessible in read-only mode for **30 days** so colleagues can\nhand over outstanding work. After 30 days the mailbox is archived and access is closed.\n\nOnly the departing employee's line manager can assign delegate access to the mailbox during this period.",
+    "D1_user_change": "# Category D: user permission change requests\n\nA request to change a user's access rights or interface is processed by an administrator within\n**3 business days** of submission. Line manager approval is mandatory.\n\nBackdating a change (an effective date earlier than today) is not allowed — the \"change date\" field must\nnot be earlier than the date the request was submitted."
+  },
+  "path": {
+    "n_llm_calls": 2,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": false,
+    "prompt_tokens": 3204,
+    "completion_tokens": 443,
+    "cost_usd": 0.000573,
+    "elapsed_s": 15.19
+  },
+  "classification_correct": false
+}

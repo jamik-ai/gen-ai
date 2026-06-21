@@ -1,0 +1,66 @@
+{
+  "ticket_id": "TCK-0020",
+  "description": "accounts good morning please note changes deactivate user accounts create accounts users tester",
+  "gold_category": "CategoryD",
+  "extraction": {
+    "category": "CategoryD",
+    "urgency": "medium",
+    "key_topic": "Deactivate and create user accounts",
+    "estimated_resolution_days": 3,
+    "confidence": 0.9
+  },
+  "reply": {
+    "reply": "It seems that your request to deactivate or create user accounts will be processed by an administrator. Please note that any changes to a user's access rights or interface will be handled within **3 business days** of submission, and line manager approval is mandatory. Unfortunately, I couldn't find specific information regarding the creation of user accounts, so I will forward your request to a specialist for further assistance. Thank you for your understanding! \n\nCited facts: \n- \"A request to change a user's access rights or interface is processed by an administrator within **3 business days** of submission.\"\n- \"Line manager approval is mandatory.\"\n\nKB chunk IDs: [\"D1_user_change\"] \n\nNow, I will submit the reply.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "Changes to a user's access rights or interface will be handled within 3 business days of submission.",
+        "support": "supported",
+        "comment": "Подтверждено в KB [D1_user_change]."
+      },
+      {
+        "claim": "Line manager approval is mandatory.",
+        "support": "supported",
+        "comment": "Подтверждено в KB [D1_user_change]."
+      },
+      {
+        "claim": "Specific information regarding the creation of user accounts is not available.",
+        "support": "not_supported",
+        "comment": "В KB нет информации о создании учетных записей пользователей."
+      }
+    ],
+    "helpfulness": 0.5,
+    "overall_score": 0.6666666666666666,
+    "summary": "Ответ соответствует категории тикета, два утверждения поддержаны, но информация о создании учетных записей не подтверждена."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 2,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "D1_user_change": "# Category D: user permission change requests\n\nA request to change a user's access rights or interface is processed by an administrator within\n**3 business days** of submission. Line manager approval is mandatory.\n\nBackdating a change (an effective date earlier than today) is not allowed — the \"change date\" field must\nnot be earlier than the date the request was submitted.",
+    "D3_assigned_reports": "# Category D: assigning report access\n\nAccess to new reports is assigned by an administrator within **1 business day** of the request, provided\nthe request specifies the access start date.\n\nIf a user is added to a reporting group without a specified date, access is granted starting from the\ncurrent date by default."
+  },
+  "path": {
+    "n_llm_calls": 2,
+    "n_tool_calls": 3,
+    "n_responder_steps": 4,
+    "reworked": false,
+    "prompt_tokens": 3196,
+    "completion_tokens": 208,
+    "cost_usd": 0.000504,
+    "elapsed_s": 13.78
+  },
+  "classification_correct": true
+}

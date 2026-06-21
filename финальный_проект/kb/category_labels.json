@@ -1,0 +1,27 @@
+{
+  "CategoryA": {
+    "label": "Hardware & Server Infrastructure",
+    "evidence_keywords": ["event", "disk", "server", "test", "machine", "host", "status", "connect"],
+    "note": "Инфраструктурные тикеты: тестовые стенды, серверы, диски, хосты, статусы подключения."
+  },
+  "CategoryB": {
+    "label": "Building Access — Visitor & Access Cards",
+    "evidence_keywords": ["card", "visitor", "area", "floor", "form", "officer", "secure", "tower", "care"],
+    "note": "Выпуск карт доступа, визитёры, leaver/maternity процессы по картам."
+  },
+  "CategoryC": {
+    "label": "Building Access — Lost Cards & Security Incidents",
+    "evidence_keywords": ["card", "access", "lost", "badge", "floor", "door", "manager", "data"],
+    "note": "Потерянные/украденные карты, инциденты безопасности, доступ к закрытым дверям. Близка по словарю к CategoryB — частый источник путаницы классификатора."
+  },
+  "CategoryD": {
+    "label": "User Administration & Mailbox",
+    "evidence_keywords": ["user", "changed", "change", "interface", "date", "add", "assigned", "mailbox", "leave"],
+    "note": "Изменение прав пользователя, почтовые ящики, назначение отчётов, увольнения (handover)."
+  },
+  "CategoryE": {
+    "label": "Procurement & Equipment Purchase",
+    "evidence_keywords": ["item", "receive", "laptop", "order", "purchase", "administrator", "upgrade", "allocation", "phone"],
+    "note": "Закупка и выдача оборудования (ноутбуки, телефоны), приём позиций, allocation."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ticket_id": "TCK-0002",
+  "description": "wednesday october pm raised replace hello please ask help allocate replace low performance decommissioned ago thank help kind regards wednesday october pm re needed july replacement hello sitting room were waiting appropriate resources make swap think alone kind regards engineer october re needed july replacement hi resurrecting subject because too progressed matter please let replaced after were expecting response side please advise kind regards thursday pm re needed july replacement replace entire downtime cannot done within also well kilos heavy pretty difficult given weight replace by myself kind regards engineer re needed july replacement hi thanks coming back surely sounds way too complicated swapping whole redo test equipment rack please proceed let assistance matter kind regards thursday re needed july replacement same connector understand compatible spec sheets these found other compatible well device buy certain replacement batteries where found were selling replacement batteries electrician hazards hot swapping even says re hot downtime comfortable doing never done fan high voltage keep looking definitive battery packs compatible kind regards engineer re needed july replacement hello apologies delay response checked battery replaced ask advise proceed instead switching entire by way expected downtime work carried out guessing expertise aspect please kind regards friday pm re needed july replacement hello finished testing bad connect via interface via serial port software information pretty vague charged connected older other ones had were powering reason thought more warning about took estimating rd rack least minutes more thinking better swap out batteries haven checked compatible instead switching entire further labour kind regards engineer re needed july replacement hello discussed earlier currently decommissioned test possible help today please advise kind regards tuesday re needed july replacement hello sorry delayed response leave yesterday slight problem testing order track down uptime submit certain load which means unplugging plugging everything how much draws calculate under therefore unsure how test without disruption existing setup moment please advise kind regards engineer needed july replacement hi believe involved testing devices right closed wanted ask help test proves better than than replacing existing installed assist please advise kind regards thursday pm re needed july replacement hi receipt stored room rest boxes next chapmen kind regards re needed july replacement hi thanks confirmation picked morning arrive sometimes afternoon regard testing undergo same analysis existing ones more main receive intact well boxes paperwork contracts which handed over chapmen possible please come back details testing part friday kind regards wednesday pm re needed july replacement hi tomorrow let how intend conduct test kind regards re needed july replacement hi leave best copy whole tomorrow thanks needed july replacement hello further arranged collected tomorrow arrive sometimes afternoon next step tested results after compare devices decide which replace setup same second going please help testing once arrives unavailable tomorrow anyone receive via courier please advise kind regards needed july replacement hi confirmed different connectors well also regular plugs redundancy he asking main installed decided keep both matter replacing next kind regards thursday pm needed july replacement hi got kind regards re needed july replacement agree lets requires until arrives weeks rack available install test parallel please guys connectors match available room thanks thursday re needed july replacement quite going transportation after re needed july replacement hi particularly concerned about which holds controller minimum autonomy production equipment least less than allow enough reaction unplanned outage aim reuse proves better upgrade replace batteries otherwise regards july re needed july replacement thanks recall got rather similar results especially minutes minutes neither which much outage added thread his awareness room units remaining values charge mins mins mins mins guess nothing room critical care about two low values respective cabinets course perhaps hungry cab kind regards july re needed july replacement please find reports also ran calibration each accurate results please let how assist further status battery transfer battery test temperature remaining sec input input voltage output output voltage load amps output va output battery status battery battery voltage batteries status battery transfer battery test temperature remaining minutes seconds input input voltage output output voltage load amps output va output battery status battery battery voltage batteries battery transfer battery test temperature remaining minutes seconds input voltage output voltage frequency load load apparent load va load amps battery status battery voltage kind regards engineer july re needed july replacement hi ah interesting test result close self test diagnostics result perhaps take self test diagnostics result each accurate enough therefore please ahead perform self test diagnostics each other let results by way unplugged commando plugs assume ones perfectly safe unplug volts plug reason larger than plugs amps maybe amps rather than amps expect pin design prevent arcing even unplugged drawing amp load plug unplug these things several times per unplugged moving racks re distributing load cheers july needed july replacement hello contacting regarding raised about checking has performed bit reluctant perform other ones honest findings he had by testing manually close self diagnostics devices themselves self diagnostic said has minutes calculated minutes wondering order proceed further having take feasible perform automated self diagnostics instead kind regards engineer july re needed july replacement hi tested details timed rundown fixed cables units which fed by commando cable couplers under cabinets cabling cab looks comfortable playing cabling running other electrician",
+  "gold_category": "CategoryA",
+  "extraction": {
+    "category": "CategoryA",
+    "urgency": "high",
+    "key_topic": "replacement of test equipment",
+    "estimated_resolution_days": 10,
+    "confidence": 0.9
+  },
+  "reply": {
+    "reply": "Thank you for your detailed message regarding the replacement and testing of the equipment. Unfortunately, I couldn't find specific information in our knowledge base related to your inquiry. I will escalate your request to a specialist who can provide you with the necessary assistance. Thank you for your patience.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": false,
+    "claims": [],
+    "helpfulness": 0.5,
+    "overall_score": 0.25,
+    "summary": "Ответ не соответствует заявленной категории и не содержит фактических утверждений, но агент предложил эскалацию запроса."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 7,
+    "n_responder_steps": 8,
+    "reworked": true,
+    "prompt_tokens": 11727,
+    "completion_tokens": 248,
+    "cost_usd": 0.001713,
+    "elapsed_s": 22.77
+  },
+  "classification_correct": true
+}

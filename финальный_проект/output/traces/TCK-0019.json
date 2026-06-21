@@ -1,0 +1,65 @@
+{
+  "ticket_id": "TCK-0019",
+  "description": "hi guys please give pm rights same permissions code picking starting next thank much",
+  "gold_category": "CategoryD",
+  "extraction": {
+    "category": "CategoryD",
+    "urgency": "medium",
+    "key_topic": "Change user permissions",
+    "estimated_resolution_days": 3,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Hello! Your request to change PM rights and permissions will be processed by an administrator within **3 business days** of submission. Please ensure that you have the necessary line manager approval for this request. Thank you!",
+    "cited_facts": [
+      "A request to change a user's access rights is processed by an administrator within 3 business days of submission.",
+      "Line manager approval is mandatory."
+    ],
+    "kb_chunk_ids": [
+      "D1_user_change"
+    ]
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "A request to change a user's access rights will be processed by an administrator within 3 business days of submission.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "Line manager approval is mandatory.",
+        "support": "supported",
+        "comment": ""
+      }
+    ],
+    "helpfulness": 1.0,
+    "overall_score": 1.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 1,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 2,
+    "checkable_cited_facts": 2,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "D1_user_change": "# Category D: user permission change requests\n\nA request to change a user's access rights or interface is processed by an administrator within\n**3 business days** of submission. Line manager approval is mandatory.\n\nBackdating a change (an effective date earlier than today) is not allowed — the \"change date\" field must\nnot be earlier than the date the request was submitted."
+  },
+  "path": {
+    "n_llm_calls": 2,
+    "n_tool_calls": 2,
+    "n_responder_steps": 2,
+    "reworked": false,
+    "prompt_tokens": 1101,
+    "completion_tokens": 122,
+    "cost_usd": 0.000189,
+    "elapsed_s": 9.74
+  },
+  "classification_correct": true
+}

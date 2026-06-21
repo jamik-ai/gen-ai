@@ -1,0 +1,58 @@
+{
+  "ticket_id": "TCK-0022",
+  "description": "client hi client currently managing thanks head mob",
+  "gold_category": "CategoryD",
+  "extraction": {
+    "category": "CategoryD",
+    "urgency": "medium",
+    "key_topic": "User management issue",
+    "estimated_resolution_days": 5,
+    "confidence": 0.7
+  },
+  "reply": {
+    "reply": "I couldn't find specific information related to your inquiry about managing clients. I will forward your question to a specialist who can assist you further.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": false,
+    "claims": [
+      {
+        "claim": "I couldn't find specific information related to your inquiry about managing clients.",
+        "support": "not_supported",
+        "comment": "Нет подтверждения в KB."
+      },
+      {
+        "claim": "I will forward your question to a specialist who can assist you further.",
+        "support": "not_supported",
+        "comment": "Нет подтверждения в KB."
+      }
+    ],
+    "helpfulness": 0.5,
+    "overall_score": 0.25,
+    "summary": "Ответ не соответствует категории и не содержит подтвержденной информации из базы знаний."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2118,
+    "completion_tokens": 150,
+    "cost_usd": 0.000338,
+    "elapsed_s": 12.24
+  },
+  "classification_correct": true
+}

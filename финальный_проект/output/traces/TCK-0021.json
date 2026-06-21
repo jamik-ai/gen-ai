@@ -1,0 +1,58 @@
+{
+  "ticket_id": "TCK-0021",
+  "description": "column added hi please rise assign thanks best regards engineer wednesday pm re column added please proceed thank wednesday pm column added hi approve please thanks best regards engineer wednesday pm column added dear colleagues please help by tax exemption column report reports section custom folder folder information about tax exemption taken core manage person screen under information details remember thanks help job specialist",
+  "gold_category": "CategoryD",
+  "extraction": {
+    "category": "CategoryD",
+    "urgency": "medium",
+    "key_topic": "tax exemption column report",
+    "estimated_resolution_days": 5,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for your inquiry regarding the tax exemption column. Unfortunately, I couldn't find any relevant information in our knowledge base regarding this matter. I will forward your request to a specialist who can assist you further.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": false,
+    "claims": [
+      {
+        "claim": "There is no relevant information in the knowledge base regarding the tax exemption column.",
+        "support": "supported",
+        "comment": "The agent states that they couldn't find any relevant information in the knowledge base."
+      },
+      {
+        "claim": "The request will be forwarded to a specialist.",
+        "support": "not_supported",
+        "comment": "The knowledge base does not provide any information about forwarding requests."
+      }
+    ],
+    "helpfulness": 0.5,
+    "overall_score": 0.25,
+    "summary": "The agent acknowledges the lack of information in the KB and offers to forward the request, but the response is somewhat unhelpful as it does not provide immediate assistance."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2348,
+    "completion_tokens": 167,
+    "cost_usd": 0.000376,
+    "elapsed_s": 12.88
+  },
+  "classification_correct": true
+}

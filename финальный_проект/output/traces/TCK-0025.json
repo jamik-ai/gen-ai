@@ -1,0 +1,58 @@
+{
+  "ticket_id": "TCK-0025",
+  "description": "cable replaced hi located floor tower cable needs fixing replacement thank help kind regards officer",
+  "gold_category": "CategoryE",
+  "extraction": {
+    "category": "CategoryA",
+    "urgency": "medium",
+    "key_topic": "cable replacement issue",
+    "estimated_resolution_days": 3,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for reaching out. Unfortunately, I couldn't find specific information regarding cable replacement in our knowledge base. I will forward your request to a specialist who can assist you further. Thank you for your patience.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": false,
+    "claims": [
+      {
+        "claim": "I couldn't find specific information regarding cable replacement in our knowledge base.",
+        "support": "not_supported",
+        "comment": "Агент утверждает, что не нашел информации, но это не подтверждается, так как в KB ничего не нашлось."
+      },
+      {
+        "claim": "I will forward your request to a specialist who can assist you further.",
+        "support": "not_supported",
+        "comment": "Нет подтверждения, что запрос будет передан специалисту."
+      }
+    ],
+    "helpfulness": 0.0,
+    "overall_score": 0.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2152,
+    "completion_tokens": 179,
+    "cost_usd": 0.000351,
+    "elapsed_s": 16.02
+  },
+  "classification_correct": false
+}

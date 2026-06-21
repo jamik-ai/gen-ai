@@ -1,0 +1,47 @@
+{
+  "ticket_id": "TCK-0024",
+  "description": "re starter form induction hi please disregard kind regards starter form induction hi please assist completion attached return form empty part thank",
+  "gold_category": "CategoryD",
+  "extraction": {
+    "category": "CategoryD",
+    "urgency": "medium",
+    "key_topic": "Completion of starter form",
+    "estimated_resolution_days": 3,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for reaching out regarding the starter form induction. Unfortunately, I couldn't find specific information related to your request in our knowledge base. I will forward your inquiry to a specialist who can assist you further. Thank you for your patience.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": false,
+    "claims": [],
+    "helpfulness": 0.0,
+    "overall_score": 0.0,
+    "summary": "Ответ агента не содержит фактической информации и не соответствует категории тикета."
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2162,
+    "completion_tokens": 181,
+    "cost_usd": 0.000353,
+    "elapsed_s": 16.37
+  },
+  "classification_correct": true
+}

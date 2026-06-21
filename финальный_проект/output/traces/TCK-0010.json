@@ -1,0 +1,73 @@
+{
+  "ticket_id": "TCK-0010",
+  "description": "thursday march pm card leaver se la",
+  "gold_category": "CategoryB",
+  "extraction": {
+    "category": "CategoryB",
+    "urgency": "medium",
+    "key_topic": "leaver access card process",
+    "estimated_resolution_days": 5,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "To deactivate a card for an employee leaving, HR must submit the leaver form at least **3 business days** before the employee's last working day. The access card will be automatically blocked on the specified date. If the form is submitted late, the card can be manually blocked upon request to the Security Desk, with a manual-block SLA of **2 hours**.",
+    "cited_facts": [
+      "HR must submit the leaver form at least **3 business days** before the employee's last working day.",
+      "The access card is automatically blocked on the date specified in the form.",
+      "If the form is submitted late, the card is blocked manually on request to the Security Desk, with a manual-block SLA of **2 hours**."
+    ],
+    "kb_chunk_ids": [
+      "B2_leaver_card"
+    ]
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "HR must submit the leaver form at least **3 business days** before the employee's last working day.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The access card will be automatically blocked on the specified date.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "If the form is submitted late, the card can be manually blocked upon request to the Security Desk, with a manual-block SLA of **2 hours**.",
+        "support": "supported",
+        "comment": ""
+      }
+    ],
+    "helpfulness": 1.0,
+    "overall_score": 1.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 2,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 3,
+    "checkable_cited_facts": 3,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "B2_leaver_card": "# Category B: deactivating a card on leaver (employee departure)\n\nHR must submit the leaver form at least **3 business days** before the employee's last working day. The\naccess card is automatically blocked on the date specified in the form.\n\nThe HR Business Partner is responsible for submitting the form on time. If the form is submitted late, the\ncard is blocked manually on request to the Security Desk, with a manual-block SLA of **2 hours**.",
+    "B3_maternity_card": "# Category B: access card during maternity leave\n\nDuring maternity leave the access card is switched to \"suspended\" status for up to **140 days**.\nReactivation is done on the employee's own request when they return, processed within **1 business day**.\n\nThe card is not cancelled outright — this is what distinguishes this process from the leaver process (see\nB2), where the card is blocked permanently.",
+    "B1_visitor_cards": "# Category B: issuing visitor access cards\n\nA visitor card request is submitted via the Visitor Access Form. The security officer processes it within\n**1 business day**. The card is valid only for the specified floor and tower, and for a maximum of\n**5 business days** in a row.\n\nIf a visitor needs access for longer than 5 days, a new request must be submitted with the receiving\nmanager's sign-off."
+  },
+  "path": {
+    "n_llm_calls": 2,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": false,
+    "prompt_tokens": 3875,
+    "completion_tokens": 233,
+    "cost_usd": 0.000607,
+    "elapsed_s": 12.2
+  },
+  "classification_correct": true
+}

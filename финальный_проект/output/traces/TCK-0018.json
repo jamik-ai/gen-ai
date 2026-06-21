@@ -1,0 +1,73 @@
+{
+  "ticket_id": "TCK-0018",
+  "description": "sent october access card hi please activate card visitor name unfortunately have lost mine sorry thank you",
+  "gold_category": "CategoryC",
+  "extraction": {
+    "category": "CategoryC",
+    "urgency": "medium",
+    "key_topic": "Lost visitor access card",
+    "estimated_resolution_days": 2,
+    "confidence": 0.9
+  },
+  "reply": {
+    "reply": "To activate a visitor access card, please ensure that the card is reported as lost to the Security Desk within 24 hours. A replacement card can be issued within 2 business days, and there is a replacement fee of $15 charged to the department budget. If you need further assistance, please let me know!",
+    "cited_facts": [
+      "An employee must report a lost card to the Security Desk within 24 hours of noticing the loss.",
+      "A replacement card is issued within 2 business days.",
+      "The replacement fee is $15, charged to the employee's department budget."
+    ],
+    "kb_chunk_ids": [
+      "C1_lost_card"
+    ]
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "An employee must report a lost card to the Security Desk within 24 hours of noticing the loss.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "A replacement card is issued within 2 business days.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "The replacement fee is $15, charged to the employee's department budget.",
+        "support": "supported",
+        "comment": ""
+      }
+    ],
+    "helpfulness": 1.0,
+    "overall_score": 1.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 3,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 3,
+    "checkable_cited_facts": 3,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "C1_lost_card": "# Category C: lost access card\n\nAn employee must report a lost card to the Security Desk within **24 hours** of noticing the loss. The old\ncard is blocked immediately once reported.\n\nA replacement card is issued within **2 business days**. The replacement fee is **$15**, charged to the\nemployee's department budget.",
+    "C2_restricted_door": "# Category C: access to restricted doors\n\nA request for access to a restricted door or floor is approved in two stages: the line manager, then the\nSecurity Manager. The combined approval SLA is **3 business days**.\n\nWithout Security Manager sign-off, access to server rooms and archives is never granted, under any\ncircumstances.",
+    "C3_access_log": "# Category C: access event log\n\nThe access event log (who, when, which door) is retained for **90 days** from the event. After that period\nthe record cannot be recovered.\n\nOnly a Security Manager can request an export of the log for an incident period — a regular employee\ncannot request it themselves."
+  },
+  "path": {
+    "n_llm_calls": 2,
+    "n_tool_calls": 2,
+    "n_responder_steps": 2,
+    "reworked": false,
+    "prompt_tokens": 1271,
+    "completion_tokens": 161,
+    "cost_usd": 0.000223,
+    "elapsed_s": 9.79
+  },
+  "classification_correct": true
+}

@@ -1,0 +1,63 @@
+{
+  "ticket_id": "TCK-0013",
+  "description": "thursday july pm cameras hello please install cameras location center assign thank infrastructure",
+  "gold_category": "CategoryC",
+  "extraction": {
+    "category": "CategoryA",
+    "urgency": "medium",
+    "key_topic": "install cameras in center",
+    "estimated_resolution_days": 5,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for your request regarding the installation of cameras at the center location. Unfortunately, I couldn't find specific information in our knowledge base regarding this matter. I will forward your request to a specialist who can assist you further.",
+    "cited_facts": [],
+    "kb_chunk_ids": []
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "The agent acknowledges the request for installation of cameras.",
+        "support": "not_supported",
+        "comment": "There is no specific information in the KB about camera installation."
+      },
+      {
+        "claim": "The agent could not find specific information in the knowledge base.",
+        "support": "supported",
+        "comment": "This is directly stated in the agent's response."
+      },
+      {
+        "claim": "The agent will forward the request to a specialist.",
+        "support": "not_supported",
+        "comment": "There is no support for this claim in the KB."
+      }
+    ],
+    "helpfulness": 0.5,
+    "overall_score": 0.5,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 0,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 0,
+    "checkable_cited_facts": 0,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": true
+  },
+  "retrieved_chunks": {},
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2146,
+    "completion_tokens": 177,
+    "cost_usd": 0.00035,
+    "elapsed_s": 14.79
+  },
+  "classification_correct": false
+}

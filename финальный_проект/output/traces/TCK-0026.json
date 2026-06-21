@@ -1,0 +1,65 @@
+{
+  "ticket_id": "TCK-0026",
+  "description": "re member hello install client back please touch requested by thank kind regards infrastructure friday december member si aces si removal rights upgrade la win se automat persons merci senior",
+  "gold_category": "CategoryE",
+  "extraction": {
+    "category": "CategoryD",
+    "urgency": "medium",
+    "key_topic": "User rights upgrade request",
+    "estimated_resolution_days": 3,
+    "confidence": 0.8
+  },
+  "reply": {
+    "reply": "Thank you for your request regarding the infrastructure upgrade and removal of rights. Please note that a request to change a user's access rights is processed by an administrator within **3 business days** of submission, and line manager approval is mandatory. If you have any further questions, feel free to reach out.",
+    "cited_facts": [
+      "A request to change a user's access rights is processed by an administrator within 3 business days of submission.",
+      "Line manager approval is mandatory."
+    ],
+    "kb_chunk_ids": [
+      "D1_user_change"
+    ]
+  },
+  "judge": {
+    "category_consistent": true,
+    "claims": [
+      {
+        "claim": "A request to change a user's access rights is processed by an administrator within 3 business days of submission.",
+        "support": "supported",
+        "comment": ""
+      },
+      {
+        "claim": "Line manager approval is mandatory.",
+        "support": "supported",
+        "comment": ""
+      }
+    ],
+    "helpfulness": 1.0,
+    "overall_score": 1.0,
+    "summary": ""
+  },
+  "hallucination": {
+    "ghost_numbers": [],
+    "ghost_cited_facts": [],
+    "disclaimer_facts": [],
+    "total_numeric_claims": 1,
+    "ghost_number_rate": 0.0,
+    "total_cited_facts": 2,
+    "checkable_cited_facts": 2,
+    "ghost_fact_rate": 0.0,
+    "no_kb_retrieved": false
+  },
+  "retrieved_chunks": {
+    "D1_user_change": "# Category D: user permission change requests\n\nA request to change a user's access rights or interface is processed by an administrator within\n**3 business days** of submission. Line manager approval is mandatory.\n\nBackdating a change (an effective date earlier than today) is not allowed — the \"change date\" field must\nnot be earlier than the date the request was submitted."
+  },
+  "path": {
+    "n_llm_calls": 4,
+    "n_tool_calls": 4,
+    "n_responder_steps": 4,
+    "reworked": true,
+    "prompt_tokens": 2273,
+    "completion_tokens": 231,
+    "cost_usd": 0.000383,
+    "elapsed_s": 14.53
+  },
+  "classification_correct": false
+}
